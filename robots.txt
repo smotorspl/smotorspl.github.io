@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /.well-known/
+Disallow: /scripts/
+Disallow: /public/
+Sitemap: https://smotors.pl/sitemap.xml
