@@ -1,0 +1,177 @@
+{
+  "title": "SMotors - Profesjonalny Serwis Samochodowy w Krakowie",
+  "meta": {
+    "charset": "UTF-8",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "author": "SMotors",
+    "robots": "index, follow",
+    "google": "notranslate",
+    "keywords": "serwis samochodowy Kraków, mechanik Kraków, warsztat samochodowy Kraków, naprawa samochodów, wymiana opon Kraków, serwis klimatyzacji Kraków, naprawa zawieszenia, elektryka samochodowa",
+    "description": "SMotors - profesjonalny serwis samochodowy w Krakowie. Kompleksowa naprawa samochodów, wymiana opon, serwis klimatyzacji i elektryki. Gwarancja na usługi. Dwie lokalizacje: Prądnik Czerwony i Nowa Huta."
+  },
+  "openGraph": {
+    "type": "website",
+    "url": "https://smotors.pl",
+    "siteName": "SMotors Kraków",
+    "image": "https://smotors.pl/public/static/images/logo.png",
+    "imageAlt": "Logo SMotors",
+    "title": "SMotors - Profesjonalny Serwis Samochodowy w Krakowie",
+    "description": "SMotors - profesjonalny serwis samochodowy w Krakowie. Kompleksowa naprawa samochodów, wymiana opon, serwis klimatyzacji i elektryki. Gwarancja na usługi."
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "SMotors - Profesjonalny Serwis Samochodowy w Krakowie",
+    "description": "SMotors - profesjonalny serwis samochodowy w Krakowie. Kompleksowa naprawa samochodów, wymiana opon, serwis klimatyzacji i elektryki.",
+    "image": "https://smotors.pl/public/static/images/logo.png"
+  },
+  "navbar": {
+    "languages": {
+      "current": "PL",
+      "options": {
+        "pl": "Polski",
+        "ua": "Українська",
+        "en": "English",
+        "ru": "Русский",
+        "de": "Deutsch",
+        "es": "Español"
+      }
+    },
+    "navItems": {
+      "services": "Usługi",
+      "advantages": "Zalety",
+      "faq": "FAQ",
+      "contact": "Kontakt"
+    },
+    "button": "Zarezerwuj teraz"
+  },
+  "hero": {
+    "headline": "Dbamy o Twój samochód, Ty oszczędzasz czas",
+    "paragraph": "Oferujemy wysokiej jakości usługi serwisowe z indywidualnym podejściem do każdego klienta. Od 2018 roku dbamy o niezawodność Twojego pojazdu, opierając się na uczciwości, profesjonalizmie i doskonałej jakości wykonania.",
+    "button": "Zarezerwuj teraz",
+    "altImage": "Samochód w serwisie SMotors"
+  },
+  "services": {
+    "title": "Usługi",
+    "description": "Z dumą oferujemy kompleksowe usługi naprawy i serwisu samochodów.",
+    "cards": {
+      "suspensionRepair": {
+        "title": "Naprawa zawieszenia",
+        "description": "Kompleksowa naprawa zawieszenia dla komfortu i bezpieczeństwa."
+      },
+      "electricRepair": {
+        "title": "Naprawa elektryki",
+        "description": "Diagnostyka i naprawa elektryki — niezawodność gwarantowana."
+      },
+      "tireChange": {
+        "title": "Wymiana opon",
+        "description": "Serwis opon i felg dla komfortu i bezpieczeństwa."
+      },
+      "acService": {
+        "title": "Serwis klimatyzacji",
+        "description": "Kompleksowa naprawa klimatyzacji dla całorocznego komfortu."
+      }
+    }
+  },
+  "advantages": {
+    "title": "Dlaczego SMotors?",
+    "description": "Wybierz nas, a zapomnisz o problemach z naprawą samochodu!",
+    "items": {
+      "warranty": {
+        "title": "Gwarancja 1 rok",
+        "description": "Oferujemy roczną gwarancję na wszystkie nasze usługi, co potwierdza naszą pewność w jakości wykonanej pracy."
+      },
+      "fullService": {
+        "title": "Pełen zakres usług",
+        "description": "Oferujemy kompleksowe usługi motoryzacyjne, od diagnostyki po naprawy, aby sprostać każdemu wyzwaniu."
+      },
+      "repairHistory": {
+        "title": "Historia naprawy pojazdu",
+        "description": "Każdy klient otrzymuje szczegółowy raport z historii napraw swojego pojazdu, co ułatwia dalsze planowanie serwisowe."
+      },
+      "team": {
+        "title": "Nasza kadra",
+        "description": "Doświadczeni i wykwalifikowani mechanicy, którzy z pełnym zaangażowaniem dbają o najwyższą jakość wykonywanych usług."
+      }
+    }
+  },
+  "faq": {
+    "title": "Najczęściej Zadawane Pytania",
+    "questions": [
+      {
+        "question": "Czy muszę wcześniej umawiać wizytę?",
+        "answer": "Chociaż przyjmujemy klientów bez umówionych wizyt, zalecamy wcześniejsze zarezerwowanie terminu, aby zapewnić obsługę w preferowanym czasie i uniknąć oczekiwania."
+      },
+      {
+        "question": "Jak długo trwa standardowy przegląd samochodu?",
+        "answer": "Standardowy przegląd trwa około 1-2 godzin. Dokładny czas zależy od modelu samochodu i zakresu usług. O szczegółowym czasie poinformujemy po wstępnej diagnostyce."
+      },
+      {
+        "question": "Czy udzielacie gwarancji na wykonane usługi?",
+        "answer": "Tak, na wszystkie wykonane usługi udzielamy 12-miesięcznej gwarancji. Obejmuje ona zarówno części, jak i robociznę."
+      },
+      {
+        "question": "Jakie formy płatności akceptujecie?",
+        "answer": "Akceptujemy płatności gotówką oraz przelewem bankowym. Dla stałych klientów oferujemy również możliwość płatności ratalnej."
+      },
+      {
+        "question": "Jak mogę umówić się na wizytę?",
+        "answer": "Wizytę możesz umówić telefonicznie, dzwoniąc pod numer podany w sekcji kontakt, lub osobiście odwiedzając nasz serwis. Nasi pracownicy pomogą wybrać najdogodniejszy termin."
+      }
+    ]
+  },
+  "contacts": {
+    "title": "Nasze Lokalizacje Serwisowe",
+    "description": "Zadzwoń do nas, żeby umówić się na wizytę!",
+    "tabs": {
+      "pradnikCzerwony": "Prądnik Czerwony",
+      "nowaHuta": "Nowa Huta"
+    },
+    "locations": {
+      "pradnikCzerwony": {
+        "contact": {
+          "title": "Kontakt z nami",
+          "address": "Dobrego Pasterza 191, 31-416 Kraków",
+          "phone": "+48 575 181 919",
+          "hours": "Pon - Sob: 8:00 - 23:00"
+        },
+        "services": {
+          "title": "Usługi",
+          "items": [
+            "Serwis i Naprawa Silnika",
+            "Naprawa Zawieszenia",
+            "Naprawa Układu Wydechowego",
+            "Wymiana Opon",
+            "Serwis Klimatyzacji"
+          ]
+        }
+      },
+      "nowaHuta": {
+        "contact": {
+          "title": "Kontakt z nami",
+          "address": "Kornela Makuszyńskiego 17, 31-752 Kraków",
+          "phone": "+48 570 460 270",
+          "hours": "Pon - Sob: 8:00 - 23:00"
+        },
+        "services": {
+          "title": "Usługi",
+          "items": [
+            "Serwis i Naprawa Silnika",
+            "Naprawa Zawieszenia",
+            "Naprawa Układu Wydechowego",
+            "Wymiana Opon",
+            "Serwis Klimatyzacji",
+            "Naprawa Elektryki",
+            "Ustawienie Zbieżności Kół"
+          ]
+        }
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© SMotors 2024"
+  },
+  "accessibility": {
+    "logoAlt": "SMotors Logo",
+    "carImageAlt": "Samochód w serwisie SMotors"
+  }
+}
