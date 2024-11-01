@@ -364,3 +364,19 @@ p i {
 .social-icon:hover {
   color: #dc3545 !important;
 }
+
+.no-caret::after {
+  display: none !important;
+}
+
+/* Remove padding/margin from last nav item */
+.navbar-nav.mx-auto .nav-item:last-child .nav-link {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+/* If the above doesn't work, try this more specific selector */
+.navbar-nav.mx-auto li:last-child a.nav-link {
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+}

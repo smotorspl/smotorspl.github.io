@@ -1,980 +1,674 @@
 <!DOCTYPE html>
 <html lang="pl" data-bs-theme="dark">
-  <head>
-    <!-- Basic Meta Tags -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="SMotors" />
-    <meta name="robots" content="index, follow" />
-    <meta name="google" content="notranslate" />
 
-    <!-- Alternate URLs -->
-    <link rel="alternate" hreflang="pl" href="https://smotors.pl" />
-    <link rel="alternate" hreflang="ua" href="https://smotors.pl/ua" />
-    <link rel="alternate" hreflang="en" href="https://smotors.pl/en" />
-    <link rel="alternate" hreflang="ru" href="https://smotors.pl/ru" />
-    <link rel="alternate" hreflang="de" href="https://smotors.pl/de" />
-    <link rel="alternate" hreflang="es" href="https://smotors.pl/es" />
-    <link rel="alternate" hreflang="x-default" href="https://smotors.pl" />
+<head>
+  <!-- Basic Meta Tags -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="SMotors" />
+  <meta name="robots" content="index, follow" />
+  <meta name="google" content="notranslate" />
 
-    <!-- SEO Meta Tags -->
-    <meta
-      name="keywords"
-      content="serwis samochodowy Kraków, mechanik Kraków, warsztat samochodowy Kraków, naprawa samochodów, wymiana opon Kraków, serwis klimatyzacji Kraków, naprawa zawieszenia, elektryka samochodowa"
-      data-i18n="meta.keywords"
-    />
-    <meta
-      name="description"
-      content="SMotors - profesjonalny serwis samochodowy w Krakowie. Kompleksowa naprawa samochodów, wymiana opon, serwis klimatyzacji i elektryki. Gwarancja na usługi. Dwie lokalizacje: Prądnik Czerwony i Nowa Huta."
-      data-i18n="meta.description"
-    />
+  <!-- Alternate URLs -->
+  <link rel="alternate" hreflang="pl" href="https://smotors.pl" />
+  <link rel="alternate" hreflang="ua" href="https://smotors.pl/ua" />
+  <link rel="alternate" hreflang="en" href="https://smotors.pl/en" />
+  <link rel="alternate" hreflang="ru" href="https://smotors.pl/ru" />
+  <link rel="alternate" hreflang="de" href="https://smotors.pl/de" />
+  <link rel="alternate" hreflang="es" href="https://smotors.pl/es" />
+  <link rel="alternate" hreflang="x-default" href="https://smotors.pl" />
 
-    <!-- Open Graph Meta Tags for Social Media -->
-    <meta property="og:type" content="website" data-i18n="openGraph.type" />
-    <meta
-      property="og:url"
-      content="https://smotors.pl"
-      data-i18n="openGraph.url"
-    />
-    <meta
-      property="og:site_name"
-      content="SMotors Kraków"
-      data-i18n="openGraph.siteName"
-    />
-    <meta
-      property="og:image"
-      content="https://smotors.pl/public/static/images/logo.png"
-      data-i18n="openGraph.image"
-    />
-    <meta
-      property="og:image:alt"
-      content="Logo SMotors"
-      data-i18n="openGraph.imageAlt"
-    />
-    <meta
-      property="og:title"
-      content="SMotors - Profesjonalny Serwis Samochodowy w Krakowie"
-      data-i18n="openGraph.title"
-    />
-    <meta
-      property="og:description"
-      content="SMotors - profesjonalny serwis samochodowy w Krakowie. Kompleksowa naprawa samochodów, wymiana opon, serwis klimatyzacji i elektryki. Gwarancja na usługi."
-      data-i18n="openGraph.description"
-    />
+  <!-- SEO Meta Tags -->
+  <meta name="keywords"
+    content="serwis samochodowy Kraków, mechanik Kraków, warsztat samochodowy Kraków, naprawa samochodów, wymiana opon Kraków, serwis klimatyzacji Kraków, naprawa zawieszenia, elektryka samochodowa"
+    data-i18n="meta.keywords" />
+  <meta name="description"
+    content="SMotors - profesjonalny serwis samochodowy w Krakowie. Kompleksowa naprawa samochodów, wymiana opon, serwis klimatyzacji i elektryki. Gwarancja na usługi. Dwie lokalizacje: Prądnik Czerwony i Nowa Huta."
+    data-i18n="meta.description" />
 
-    <!-- Twitter Card Meta Tags -->
-    <meta
-      name="twitter:card"
-      content="summary_large_image"
-      data-i18n="twitter.card"
-    />
-    <meta
-      name="twitter:title"
-      content="SMotors - Profesjonalny Serwis Samochodowy w Krakowie"
-      data-i18n="twitter.title"
-    />
-    <meta
-      name="twitter:description"
-      content="SMotors - profesjonalny serwis samochodowy w Krakowie. Kompleksowa naprawa samochodów, wymiana opon, serwis klimatyzacji i elektryki."
-      data-i18n="twitter.description"
-    />
-    <meta
-      name="twitter:image"
-      content="https://smotors.pl/public/static/images/logo.png"
-      data-i18n="twitter.image"
-    />
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:type" content="website" data-i18n="openGraph.type" />
+  <meta property="og:url" content="https://smotors.pl" data-i18n="openGraph.url" />
+  <meta property="og:site_name" content="SMotors Kraków" data-i18n="openGraph.siteName" />
+  <meta property="og:image" content="https://smotors.pl/public/static/images/logo.png" data-i18n="openGraph.image" />
+  <meta property="og:image:alt" content="Logo SMotors" data-i18n="openGraph.imageAlt" />
+  <meta property="og:title" content="SMotors - Profesjonalny Serwis Samochodowy w Krakowie"
+    data-i18n="openGraph.title" />
+  <meta property="og:description"
+    content="SMotors - profesjonalny serwis samochodowy w Krakowie. Kompleksowa naprawa samochodów, wymiana opon, serwis klimatyzacji i elektryki. Gwarancja na usługi."
+    data-i18n="openGraph.description" />
 
-    <!-- Canonical URL -->
-    <link
-      rel="canonical"
-      href="https://smotors.pl"
-      data-i18n="meta.canonical"
-    />
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" data-i18n="twitter.card" />
+  <meta name="twitter:title" content="SMotors - Profesjonalny Serwis Samochodowy w Krakowie"
+    data-i18n="twitter.title" />
+  <meta name="twitter:description"
+    content="SMotors - profesjonalny serwis samochodowy w Krakowie. Kompleksowa naprawa samochodów, wymiana opon, serwis klimatyzacji i elektryki."
+    data-i18n="twitter.description" />
+  <meta name="twitter:image" content="https://smotors.pl/public/static/images/logo.png" data-i18n="twitter.image" />
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://smotors.pl" data-i18n="meta.canonical" />
 
-    <!-- Title -->
-    <title data-i18n="title">
-      SMotors - Profesjonalny Serwis Samochodowy w Krakowie
-    </title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
 
-    <!-- Third-party CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      rel="stylesheet"
-    />
+  <!-- Title -->
+  <title data-i18n="title">
+    SMotors - Profesjonalny Serwis Samochodowy w Krakowie
+  </title>
 
-    <!-- Custom CSS -->
-    <link href="./public/static/css/main.css" rel="stylesheet" />
+  <!-- Third-party CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
 
-    <!-- Preload Critical Resources -->
-    <link rel="preload" href="./public/static/images/car.jpg" as="image" />
-    <link rel="preload" href="./public/static/images/logo.png" as="image" />
-  </head>
+  <!-- Custom CSS -->
+  <link href="./public/static/css/main.css" rel="stylesheet" />
 
-  <body class="pt-5" data-bs-spy="scroll" data-bs-target="#navbar">
-    <header>
-      <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-          <!-- Brand/Logo -->
-          <a
-            href="#"
-            class="navbar-brand d-flex align-items-center"
-            aria-label="SMotors Home"
-          >
-            <img
-              src="./public/static/images/logo.png"
-              alt="SMotors Logo"
-              width="84"
-              height="32"
-              data-i18n="accessibility.logoAlt"
-            />
-            <h1 class="ps-2 mb-0 h2">
-              <span class="brand-text">
-                <span class="text-danger">S</span>Motors
-              </span>
-            </h1>
-          </a>
+  <!-- Preload Critical Resources -->
+  <link rel="preload" href="./public/static/images/car.jpg" as="image" />
+  <link rel="preload" href="./public/static/images/logo.png" as="image" />
+</head>
 
-          <!-- Mobile Menu Button -->
-          <button
-            class="navbar-toggler"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            type="button"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<body class="pt-5" data-bs-spy="scroll" data-bs-target="#navbar">
+  <header>
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <!-- Brand/Logo -->
+        <a href="#" class="navbar-brand d-flex align-items-center" aria-label="SMotors Home">
+          <img src="./public/static/images/logo.png" alt="SMotors Logo" width="84" height="32"
+            data-i18n="accessibility.logoAlt" />
+          <h1 class="ps-2 mb-0 h2">
+            <span class="brand-text">
+              <span class="text-danger">S</span>Motors
+            </span>
+          </h1>
+        </a>
 
-          <!-- Navigation Menu -->
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="#services"
-                  data-i18n="navbar.navItems.services"
-                  >Usługi</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="#advantages"
-                  data-i18n="navbar.navItems.advantages"
-                  >Zalety</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#faq" data-i18n="navbar.navItems.faq"
-                  >FAQ</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="#contacts"
-                  data-i18n="navbar.navItems.contact"
-                  >Kontakt</a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <button
-                  class="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  aria-label="Select Language"
-                >
-                  <i class="fas fa-globe"></i>
-                  <span
-                    class="current-lang"
-                    data-i18n="navbar.languages.current"
-                    >PL</span
-                  >
-                </button>
-                <ul class="dropdown-menu">
-                  <li>
-                    <button
-                      class="dropdown-item"
-                      data-lang="pl"
-                      data-i18n="navbar.languages.options.pl"
-                    >
-                      Polski
-                    </button>
-                  </li>
-                  <li>
-                    <button
-                      class="dropdown-item"
-                      data-lang="ua"
-                      data-i18n="navbar.languages.options.ua"
-                    >
-                      Українська
-                    </button>
-                  </li>
-                  <li>
-                    <button
-                      class="dropdown-item"
-                      data-lang="en"
-                      data-i18n="navbar.languages.options.en"
-                    >
-                      English
-                    </button>
-                  </li>
-                  <li>
-                    <button
-                      class="dropdown-item"
-                      data-lang="ru"
-                      data-i18n="navbar.languages.options.ru"
-                    >
-                      Русский
-                    </button>
-                  </li>
-                  <li>
-                    <button
-                      class="dropdown-item"
-                      data-lang="de"
-                      data-i18n="navbar.languages.options.de"
-                    >
-                      Deutsch
-                    </button>
-                  </li>
-                  <li>
-                    <button
-                      class="dropdown-item"
-                      data-lang="es"
-                      data-i18n="navbar.languages.options.es"
-                    >
-                      Español
-                    </button>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <a
-              class="btn btn-primary"
-              href="#contacts"
-              data-i18n="navbar.button"
-              >Zarezerwuj teraz</a
-            >
-          </div>
-        </div>
-      </nav>
-    </header>
+        <!-- Mobile Menu Button -->
+        <button class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+          data-bs-toggle="collapse" data-bs-target="#navbarNav" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <main>
-      <!-- Hero Section -->
-      <section id="hero" class="py-5 py-lg-7" aria-label="Wprowadzenie">
-        <div class="container">
-          <div class="row row-cols-2 align-items-center">
-            <div class="col-lg-6" data-aos="fade-right" data-aos-duration="500">
-              <h1 class="display-4 fw-bold my-4" data-i18n="hero.headline">
-                Dbamy o Twój samochód, Ty oszczędzasz czas
-              </h1>
-              <div class="row">
-                <div class="col-md-10">
-                  <p data-i18n="hero.paragraph">
-                    Oferujemy wysokiej jakości usługi serwisowe z indywidualnym
-                    podejściem do każdego klienta. Od 2018 roku dbamy o
-                    niezawodność Twojego pojazdu, opierając się na uczciwości,
-                    profesjonalizmie i doskonałej jakości wykonania.
-                  </p>
-                </div>
-              </div>
-              <a
-                href="#contacts"
-                class="btn btn-primary btn-lg my-4"
-                data-i18n="hero.button"
-                >Zarezerwuj teraz</a
-              >
-            </div>
-            <div class="col-lg-6" data-aos="fade-left" data-aos-duration="500">
-              <img
-                src="./public/static/images/car.jpg"
-                class="img-fluid rounded"
-                alt="Samochód w serwisie SMotors"
-                data-i18n="accessibility.carImageAlt"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Services Section -->
-      <section
-        id="services"
-        class="py-5 py-lg-7 text-center"
-        aria-label="Usługi"
-      >
-        <div class="container">
-          <h2 class="display-5 mb-3 fw-normal" data-i18n="services.title">
-            Usługi
-          </h2>
-          <p class="mb-5" data-i18n="services.description">
-            Z dumą oferujemy kompleksowe usługi naprawy i serwisu samochodów.
-          </p>
-          <div class="row pt-4">
-            <div class="col-md-3" data-aos="fade-up" data-aos-delay="0">
-              <div class="card h-100">
-                <div class="card-body">
-                  <i class="fa-solid fa-car-on"></i>
-                  <h5
-                    class="card-title fw-normal my-3"
-                    data-i18n="services.cards.suspensionRepair.title"
-                  >
-                    Naprawa zawieszenia
-                  </h5>
-                  <p
-                    class="card-text mx-2"
-                    data-i18n="services.cards.suspensionRepair.description"
-                  >
-                    Kompleksowa naprawa zawieszenia dla komfortu i
-                    bezpieczeństwa.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3" data-aos="fade-up" data-aos-delay="50">
-              <div class="card h-100">
-                <div class="card-body">
-                  <i class="fa-solid fa-wrench"></i>
-                  <h5
-                    class="card-title fw-normal my-3"
-                    data-i18n="services.cards.electricRepair.title"
-                  >
-                    Naprawa elektryki
-                  </h5>
-                  <p
-                    class="card-text mx-2"
-                    data-i18n="services.cards.electricRepair.description"
-                  >
-                    Diagnostyka i naprawa elektryki — niezawodność gwarantowana.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-              <div class="card h-100">
-                <div class="card-body">
-                  <i class="fas fa-cogs"></i>
-                  <h5
-                    class="card-title fw-normal my-3"
-                    data-i18n="services.cards.tireChange.title"
-                  >
-                    Wymiana opon
-                  </h5>
-                  <p
-                    class="card-text mx-2"
-                    data-i18n="services.cards.tireChange.description"
-                  >
-                    Serwis opon i felg dla komfortu i bezpieczeństwa.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3" data-aos="fade-up" data-aos-delay="150">
-              <div class="card h-100">
-                <div class="card-body">
-                  <i class="fa-solid fa-gauge"></i>
-                  <h5
-                    class="card-title fw-normal my-3"
-                    data-i18n="services.cards.acService.title"
-                  >
-                    Serwis klimatyzacji
-                  </h5>
-                  <p
-                    class="card-text mx-2"
-                    data-i18n="services.cards.acService.description"
-                  >
-                    Kompleksowa naprawa klimatyzacji dla całorocznego komfortu.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Advantages Section -->
-      <section id="advantages" class="py-5 py-lg-7" aria-label="Zalety">
-        <div class="container" style="max-width: 1200px">
-          <h2
-            class="text-center display-5 mb-3 fw-normal"
-            data-i18n="advantages.title"
-          >
-            Dlaczego SMotors?
-          </h2>
-          <p class="text-center mb-5" data-i18n="advantages.description">
-            Wybierz nas, a zapomnisz o problemach z naprawą samochodu!
-          </p>
-          <div class="container pt-4">
-            <div
-              class="advantage-row"
-              data-aos="fade-right"
-              data-aos-duration="500"
-            >
-              <div class="row">
-                <div class="col-md-3">
-                  <h4 class="ps-4" data-i18n="advantages.items.warranty.title">
-                    Gwarancja 1 rok
-                  </h4>
-                </div>
-                <div class="col-md-4 ms-auto">
-                  <p data-i18n="advantages.items.warranty.description">
-                    Oferujemy roczną gwarancję na wszystkie nasze usługi, co
-                    potwierdza naszą pewność w jakości wykonanej pracy.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="advantage-row"
-              data-aos="fade-right"
-              data-aos-duration="500"
-            >
-              <div class="row">
-                <div class="col-md-3">
-                  <h4
-                    class="ps-4"
-                    data-i18n="advantages.items.fullService.title"
-                  >
-                    Pełen zakres usług
-                  </h4>
-                </div>
-                <div class="col-md-4 ms-auto">
-                  <p data-i18n="advantages.items.fullService.description">
-                    Oferujemy kompleksowe usługi motoryzacyjne, od diagnostyki
-                    po naprawy, aby sprostać każdemu wyzwaniu.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="advantage-row"
-              data-aos="fade-right"
-              data-aos-duration="500"
-            >
-              <div class="row">
-                <div class="col-md-3">
-                  <h4
-                    class="ps-4"
-                    data-i18n="advantages.items.repairHistory.title"
-                  >
-                    Historia naprawy pojazdu
-                  </h4>
-                </div>
-                <div class="col-md-4 ms-auto">
-                  <p data-i18n="advantages.items.repairHistory.description">
-                    Każdy klient otrzymuje szczegółowy raport z historii napraw
-                    swojego pojazdu, co ułatwia dalsze planowanie serwisowe.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="advantage-row no-space"
-              data-aos="fade-right"
-              data-aos-duration="500"
-            >
-              <div class="row">
-                <div class="col-md-3">
-                  <h4 class="ps-4" data-i18n="advantages.items.team.title">
-                    Nasza kadra
-                  </h4>
-                </div>
-                <div class="col-md-4 ms-auto">
-                  <p data-i18n="advantages.items.team.description">
-                    Doświadczeni i wykwalifikowani mechanicy, którzy z pełnym
-                    zaangażowaniem dbają o najwyższą jakość wykonywanych usług.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- FAQ Section -->
-      <section id="faq" class="py-5 py-lg-7" aria-label="FAQ">
-        <div class="container faq-section">
-          <h2
-            class="text-center display-5 mb-3 fw-normal"
-            data-i18n="faq.title"
-          >
-            Najczęściej Zadawane Pytania
-          </h2>
-          <div id="faqAccordion" class="accordion pt-4">
-            <div class="card faq-card" data-aos="fade-up" data-aos-delay="0">
-              <div id="headingOne" class="my-3">
-                <button
-                  class="btn btn-link"
-                  aria-controls="collapseOne"
-                  aria-expanded="false"
-                  data-bs-target="#collapseOne"
-                  data-bs-toggle="collapse"
-                  type="button"
-                >
-                  <h3
-                    class="my-auto faq-heading"
-                    data-i18n="faq.questions.0.question"
-                  >
-                    Czy muszę wcześniej umawiać wizytę?
-                  </h3>
-                  <span
-                    class="fa-solid fa-chevron-down faq-icon collapsed"
-                  ></span>
-                </button>
-              </div>
-              <div
-                id="collapseOne"
-                class="collapse"
-                aria-labelledby="headingOne"
-                data-bs-parent="#faqAccordion"
-              >
-                <p data-i18n="faq.questions.0.answer">
-                  Chociaż przyjmujemy klientów bez umówionych wizyt, zalecamy
-                  wcześniejsze zarezerwowanie terminu, aby zapewnić obsługę w
-                  preferowanym czasie i uniknąć oczekiwania.
-                </p>
-              </div>
-              <div class="divider-line"></div>
-            </div>
-            <div class="card faq-card" data-aos="fade-up" data-aos-delay="50">
-              <div id="headingTwo" class="my-3">
-                <button
-                  class="btn btn-link"
-                  aria-controls="collapseTwo"
-                  aria-expanded="false"
-                  data-bs-target="#collapseTwo"
-                  data-bs-toggle="collapse"
-                  type="button"
-                >
-                  <h3
-                    class="my-auto faq-heading"
-                    data-i18n="faq.questions.1.question"
-                  >
-                    Jak długo trwa standardowy przegląd samochodu?
-                  </h3>
-                  <span
-                    class="fa-solid fa-chevron-down faq-icon collapsed"
-                  ></span>
-                </button>
-              </div>
-              <div
-                id="collapseTwo"
-                class="collapse"
-                aria-labelledby="headingTwo"
-                data-bs-parent="#faqAccordion"
-              >
-                <p data-i18n="faq.questions.1.answer">
-                  Standardowy przegląd trwa około 1-2 godzin. Dokładny czas
-                  zależy od modelu samochodu i zakresu usług. O szczegółowym
-                  czasie poinformujemy po wstępnej diagnostyce.
-                </p>
-              </div>
-              <div class="divider-line"></div>
-            </div>
-            <div class="card faq-card" data-aos="fade-up" data-aos-delay="100">
-              <div id="headingThree" class="my-3">
-                <button
-                  class="btn btn-link"
-                  aria-controls="collapseThree"
-                  aria-expanded="false"
-                  data-bs-target="#collapseThree"
-                  data-bs-toggle="collapse"
-                  type="button"
-                >
-                  <h3
-                    class="my-auto faq-heading"
-                    data-i18n="faq.questions.2.question"
-                  >
-                    Czy udzielacie gwarancji na wykonane usługi?
-                  </h3>
-                  <span
-                    class="fa-solid fa-chevron-down faq-icon collapsed"
-                  ></span>
-                </button>
-              </div>
-              <div
-                id="collapseThree"
-                class="collapse"
-                aria-labelledby="headingThree"
-                data-bs-parent="#faqAccordion"
-              >
-                <p data-i18n="faq.questions.2.answer">
-                  Tak, na wszystkie wykonane usługi udzielamy 12-miesięcznej
-                  gwarancji. Obejmuje ona zarówno części, jak i robociznę.
-                </p>
-              </div>
-              <div class="divider-line"></div>
-            </div>
-            <div class="card faq-card" data-aos="fade-up" data-aos-delay="150">
-              <div id="headingFour" class="my-3">
-                <button
-                  class="btn btn-link"
-                  aria-controls="collapseFour"
-                  aria-expanded="false"
-                  data-bs-target="#collapseFour"
-                  data-bs-toggle="collapse"
-                  type="button"
-                >
-                  <h3
-                    class="my-auto faq-heading"
-                    data-i18n="faq.questions.3.question"
-                  >
-                    Jakie formy płatności akceptujecie?
-                  </h3>
-                  <span
-                    class="fa-solid fa-chevron-down faq-icon collapsed"
-                  ></span>
-                </button>
-              </div>
-              <div
-                id="collapseFour"
-                class="collapse"
-                aria-labelledby="headingFour"
-                data-bs-parent="#faqAccordion"
-              >
-                <p data-i18n="faq.questions.3.answer">
-                  Akceptujemy płatności gotówką oraz przelewem bankowym. Dla
-                  stałych klientów oferujemy również możliwość płatności
-                  ratalnej.
-                </p>
-              </div>
-              <div class="divider-line"></div>
-            </div>
-            <div class="card faq-card" data-aos="fade-up" data-aos-delay="200">
-              <div id="headingFive" class="my-3">
-                <button
-                  class="btn btn-link"
-                  aria-controls="collapseFive"
-                  aria-expanded="false"
-                  data-bs-target="#collapseFive"
-                  data-bs-toggle="collapse"
-                  type="button"
-                >
-                  <h3
-                    class="my-auto faq-heading"
-                    data-i18n="faq.questions.4.question"
-                  >
-                    Jak mogę umówić się na wizytę?
-                  </h3>
-                  <span
-                    class="fa-solid fa-chevron-down faq-icon collapsed"
-                  ></span>
-                </button>
-              </div>
-              <div
-                id="collapseFive"
-                class="collapse"
-                aria-labelledby="headingFive"
-                data-bs-parent="#faqAccordion"
-              >
-                <p data-i18n="faq.questions.4.answer">
-                  Wizytę możesz umówić telefonicznie, dzwoniąc pod numer podany
-                  w sekcji kontakt, lub osobiście odwiedzając nasz serwis. Nasi
-                  pracownicy pomogą wybrać najdogodniejszy termin.
-                </p>
-              </div>
-              <div class="divider-line"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Contact Section -->
-      <section id="contacts" class="py-5 py-lg-7" aria-label="Kontakt">
-        <div class="container" style="max-width: 1000px">
-          <h2
-            class="text-center display-5 mb-3 fw-normal"
-            data-i18n="contacts.title"
-          >
-            Nasze Lokalizacje Serwisowe
-          </h2>
-          <p class="text-center mb-5" data-i18n="contacts.description">
-            Zadzwoń do nas, żeby umówić się na wizytę!
-          </p>
-          <ul
-            id="locationTabs"
-            class="nav nav-tabs mb-4 pt-4"
-            data-aos="fade-up"
-            role="tablist"
-          >
-            <li class="nav-item" role="presentation">
-              <button
-                id="pradnikCzerwony-tab"
-                class="nav-link active"
-                aria-controls="pradnikCzerwony"
-                aria-selected="true"
-                data-bs-toggle="tab"
-                data-bs-target="#pradnikCzerwony"
-                role="tab"
-                type="button"
-              >
-                <span data-i18n="contacts.tabs.pradnikCzerwony">
-                  Prądnik Czerwony
-                </span>
-              </button>
+        <!-- Navigation Menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- Main nav items centered -->
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#services" data-i18n="navbar.navItems.services">Usługi</a>
             </li>
-            <li class="nav-item" role="presentation">
-              <button
-                id="nowaHuta-tab"
-                class="nav-link"
-                aria-controls="nowaHuta"
-                aria-selected="false"
-                data-bs-toggle="tab"
-                data-bs-target="#nowaHuta"
-                role="tab"
-                type="button"
-              >
-                <span data-i18n="contacts.tabs.nowaHuta">Nowa Huta</span>
-              </button>
+            <li class="nav-item">
+              <a class="nav-link" href="#advantages" data-i18n="navbar.navItems.advantages">Zalety</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq" data-i18n="navbar.navItems.faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts" data-i18n="navbar.navItems.contact">Kontakt</a>
             </li>
           </ul>
 
-          <!-- Location Content -->
-          <div id="locationTabsContent" class="tab-content" data-aos="fade-up">
-            <div
-              id="pradnikCzerwony"
-              class="tab-pane fade show active"
-              aria-labelledby="pradnikCzerwony-tab"
-              role="tabpanel"
-            >
-              <div class="contact-card" data-aos="zoom-in">
-                <div class="row">
-                  <div class="col-md-6">
-                    <h3
-                      class="fw-normal mb-3"
-                      data-i18n="contacts.locations.pradnikCzerwony.contact.title"
-                    >
-                      Kontakt z nami
-                    </h3>
-                    <p>
-                      <i class="fas fa-map-marker-alt"></i>
-                      <span
-                        data-i18n="contacts.locations.pradnikCzerwony.contact.address"
-                      >
-                        Dobrego Pasterza 191, 31-416 Kraków
-                      </span>
-                    </p>
-                    <p>
-                      <i class="fas fa-phone"></i>
-                      <span
-                        data-i18n="contacts.locations.pradnikCzerwony.contact.phone"
-                      >
-                        +48 575 181 919
-                      </span>
-                    </p>
-                    <p>
-                      <i class="fas fa-clock"></i>
-                      <span
-                        data-i18n="contacts.locations.pradnikCzerwony.contact.hours"
-                      >
-                        Pon - Sob: 8:00 - 23:00
-                    </p>
-                  </div>
-                  <div class="col-md-6">
-                    <h3
-                      class="fw-normal mb-3"
-                      data-i18n="contacts.locations.pradnikCzerwony.services.title"
-                    >
-                      Usługi
-                    </h3>
-                    <ul class="contact-info">
-                      <li>
-                        <i class="fa-solid fa-gears"></i>
-                        <span
-                          data-i18n="contacts.locations.pradnikCzerwony.services.items.0"
-                        >
-                          Serwis i Naprawa Silnika
-                        </span>
-                      </li>
-                      <li>
-                        <i class="fa-solid fa-car-side"></i>
-                        <span
-                          data-i18n="contacts.locations.pradnikCzerwony.services.items.1"
-                        >
-                          Naprawa Zawieszenia
-                        </span>
-                      </li>
-                      <li>
-                        <i class="fa-solid fa-gas-pump"></i>
-                        <span
-                          data-i18n="contacts.locations.pradnikCzerwony.services.items.2"
-                        >
-                          Naprawa Układu Wydechowego
-                        </span>
-                      </li>
-                      <li>
-                        <i class="fa-solid fa-wrench"></i>
-                        <span
-                          data-i18n="contacts.locations.pradnikCzerwony.services.items.3"
-                        >
-                          Wymiana Opon
-                        </span>
-                      </li>
-                      <li>
-                        <i class="fa-solid fa-snowflake"></i>
-                        <span
-                          data-i18n="contacts.locations.pradnikCzerwony.services.items.4"
-                        >
-                          Serwis Klimatyzacji
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              id="nowaHuta"
-              class="tab-pane fade"
-              aria-labelledby="nowaHuta-tab"
-              role="tabpanel"
-            >
-              <div class="contact-card" data-aos="zoom-in">
-                <div class="row">
-                  <div class="col-md-6">
-                    <h3
-                      class="fw-normal mb-3"
-                      data-i18n="contacts.locations.nowaHuta.contact.title"
-                    >
-                      Kontakt z nami
-                    </h3>
-                    <p data-i18n="contacts.locations.nowaHuta.contact.address">
-                      <i class="fas fa-map-marker-alt"></i>
-                      Kornela Makuszyńskiego 17, 31-752 Kraków
-                    </p>
-                    <p data-i18n="contacts.locations.nowaHuta.contact.phone">
-                      <i class="fas fa-phone"></i> +48 570 460 270
-                    </p>
-                    <p data-i18n="contacts.locations.nowaHuta.contact.hours">
-                      <i class="fas fa-clock"></i> Pon - Sob: 8:00 - 23:00
-                    </p>
-                  </div>
-                  <div class="col-md-6">
-                    <h3
-                      class="fw-normal mb-3"
-                      data-i18n="contacts.locations.nowaHuta.services.title"
-                    >
-                      Usługi
-                    </h3>
-                    <ul class="contact-info">
-                      <li
-                        data-i18n="contacts.locations.nowaHuta.services.items.0"
-                      >
-                        <i class="fa-solid fa-gears"></i>
-                        Serwis i Naprawa Silnika
-                      </li>
-                      <li
-                        data-i18n="contacts.locations.nowaHuta.services.items.1"
-                      >
-                        <i class="fa-solid fa-car-side"></i> Naprawa Zawieszenia
-                      </li>
-                      <li
-                        data-i18n="contacts.locations.nowaHuta.services.items.2"
-                      >
-                        <i class="fa-solid fa-gas-pump"></i>
-                        Naprawa Układu Wydechowego
-                      </li>
-                      <li
-                        data-i18n="contacts.locations.nowaHuta.services.items.3"
-                      >
-                        <i class="fa-solid fa-wrench"></i> Wymiana Opon
-                      </li>
-                      <li
-                        data-i18n="contacts.locations.nowaHuta.services.items.4"
-                      >
-                        <i class="fa-solid fa-snowflake"></i>
-                        Serwis Klimatyzacji
-                      </li>
-                      <li
-                        data-i18n="contacts.locations.nowaHuta.services.items.5"
-                      >
-                        <i class="fa-solid fa-bolt"></i> Naprawa Elektryki
-                      </li>
-                      <li
-                        data-i18n="contacts.locations.nowaHuta.services.items.6"
-                      >
-                        <i class="fa-solid fa-ruler-combined"></i>
-                        Ustawienie Zbieżności Kół
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <!-- Right-aligned items -->
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <button class="nav-link dropdown-toggle no-caret" data-bs-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false" aria-label="Select Language">
+                <i class="fas fa-globe me-1"></i>
+                <span class="current-lang" data-i18n="navbar.languages.current">PL</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <button class="dropdown-item" data-lang="pl" data-i18n="navbar.languages.options.pl">
+                    Polski
+                  </button>
+                </li>
+                <li>
+                  <button class="dropdown-item" data-lang="ua" data-i18n="navbar.languages.options.ua">
+                    Українська
+                  </button>
+                </li>
+                <li>
+                  <button class="dropdown-item" data-lang="en" data-i18n="navbar.languages.options.en">
+                    English
+                  </button>
+                </li>
+                <li>
+                  <button class="dropdown-item" data-lang="ru" data-i18n="navbar.languages.options.ru">
+                    Русский
+                  </button>
+                </li>
+                <li>
+                  <button class="dropdown-item" data-lang="de" data-i18n="navbar.languages.options.de">
+                    Deutsch
+                  </button>
+                </li>
+                <li>
+                  <button class="dropdown-item" data-lang="es" data-i18n="navbar.languages.options.es">
+                    Español
+                  </button>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <a class="btn btn-primary" data-target="#contacts" data-i18n="navbar.button">Zarezerwuj teraz</a>
         </div>
-      </section>
-    </main>
+      </div>
+    </nav>
+  </header>
 
-    <footer class="text-white py-4">
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="py-5 py-lg-7" aria-label="Wprowadzenie">
       <div class="container">
-        <div class="row align-items-center">
-          <!-- Copyright -->
-          <div class="col-md-6">
-            <p class="mb-0" data-i18n="footer.copyright">&copy; SMotors 2024</p>
+        <div class="row row-cols-2 align-items-center">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-duration="500">
+            <h1 class="display-4 fw-bold my-4" data-i18n="hero.headline">
+              Dbamy o Twój samochód, Ty oszczędzasz czas
+            </h1>
+            <div class="row">
+              <div class="col-md-10">
+                <p data-i18n="hero.paragraph">
+                  Oferujemy wysokiej jakości usługi serwisowe z indywidualnym
+                  podejściem do każdego klienta. Od 2018 roku dbamy o
+                  niezawodność Twojego pojazdu, opierając się na uczciwości,
+                  profesjonalizmie i doskonałej jakości wykonania.
+                </p>
+              </div>
+            </div>
+            <a href="#contacts" class="btn btn-primary btn-lg my-4" data-i18n="hero.button">Zarezerwuj teraz</a>
           </div>
-
-          <!-- Social Media Links -->
-          <div class="col-md-6 text-md-end">
-            <a href="https://facebook.com" target="_blank" class="me-3 social-icon"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com" target="_blank" class="me-3 social-icon"><i class="fab fa-twitter"></i></a>
-            <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-duration="500">
+            <img src="./public/static/images/car.jpg" class="img-fluid rounded" alt="Samochód w serwisie SMotors"
+              data-i18n="accessibility.carImageAlt" />
           </div>
         </div>
       </div>
-    </footer>
+    </section>
 
-    <!-- Essential Scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Services Section -->
+    <section id="services" class="py-5 py-lg-7 text-center" aria-label="Usługi">
+      <div class="container">
+        <h2 class="display-5 mb-3 fw-normal" data-i18n="services.title">
+          Usługi
+        </h2>
+        <p class="mb-5" data-i18n="services.description">
+          Z dumą oferujemy kompleksowe usługi naprawy i serwisu samochodów.
+        </p>
+        <div class="row pt-4">
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="0">
+            <div class="card h-100">
+              <div class="card-body">
+                <i class="fa-solid fa-car-on"></i>
+                <h5 class="card-title fw-normal my-3" data-i18n="services.cards.suspensionRepair.title">
+                  Naprawa zawieszenia
+                </h5>
+                <p class="card-text mx-2" data-i18n="services.cards.suspensionRepair.description">
+                  Kompleksowa naprawa zawieszenia dla komfortu i
+                  bezpieczeństwa.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="50">
+            <div class="card h-100">
+              <div class="card-body">
+                <i class="fa-solid fa-wrench"></i>
+                <h5 class="card-title fw-normal my-3" data-i18n="services.cards.electricRepair.title">
+                  Naprawa elektryki
+                </h5>
+                <p class="card-text mx-2" data-i18n="services.cards.electricRepair.description">
+                  Diagnostyka i naprawa elektryki — niezawodność gwarantowana.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="card h-100">
+              <div class="card-body">
+                <i class="fas fa-cogs"></i>
+                <h5 class="card-title fw-normal my-3" data-i18n="services.cards.tireChange.title">
+                  Wymiana opon
+                </h5>
+                <p class="card-text mx-2" data-i18n="services.cards.tireChange.description">
+                  Serwis opon i felg dla komfortu i bezpieczeństwa.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="150">
+            <div class="card h-100">
+              <div class="card-body">
+                <i class="fa-solid fa-gauge"></i>
+                <h5 class="card-title fw-normal my-3" data-i18n="services.cards.acService.title">
+                  Serwis klimatyzacji
+                </h5>
+                <p class="card-text mx-2" data-i18n="services.cards.acService.description">
+                  Kompleksowa naprawa klimatyzacji dla całorocznego komfortu.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!-- Enhancement Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Advantages Section -->
+    <section id="advantages" class="py-5 py-lg-7" aria-label="Zalety">
+      <div class="container" style="max-width: 1200px">
+        <h2 class="text-center display-5 mb-3 fw-normal" data-i18n="advantages.title">
+          Dlaczego SMotors?
+        </h2>
+        <p class="text-center mb-5" data-i18n="advantages.description">
+          Wybierz nas, a zapomnisz o problemach z naprawą samochodu!
+        </p>
+        <div class="container pt-4">
+          <div class="advantage-row" data-aos="fade-right" data-aos-duration="500">
+            <div class="row">
+              <div class="col-md-3">
+                <h4 class="ps-4" data-i18n="advantages.items.warranty.title">
+                  Gwarancja 1 rok
+                </h4>
+              </div>
+              <div class="col-md-4 ms-auto">
+                <p data-i18n="advantages.items.warranty.description">
+                  Oferujemy roczną gwarancję na wszystkie nasze usługi, co
+                  potwierdza naszą pewność w jakości wykonanej pracy.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="advantage-row" data-aos="fade-right" data-aos-duration="500">
+            <div class="row">
+              <div class="col-md-3">
+                <h4 class="ps-4" data-i18n="advantages.items.fullService.title">
+                  Pełen zakres usług
+                </h4>
+              </div>
+              <div class="col-md-4 ms-auto">
+                <p data-i18n="advantages.items.fullService.description">
+                  Oferujemy kompleksowe usługi motoryzacyjne, od diagnostyki
+                  po naprawy, aby sprostać każdemu wyzwaniu.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="advantage-row" data-aos="fade-right" data-aos-duration="500">
+            <div class="row">
+              <div class="col-md-3">
+                <h4 class="ps-4" data-i18n="advantages.items.repairHistory.title">
+                  Historia naprawy pojazdu
+                </h4>
+              </div>
+              <div class="col-md-4 ms-auto">
+                <p data-i18n="advantages.items.repairHistory.description">
+                  Każdy klient otrzymuje szczegółowy raport z historii napraw
+                  swojego pojazdu, co ułatwia dalsze planowanie serwisowe.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="advantage-row no-space" data-aos="fade-right" data-aos-duration="500">
+            <div class="row">
+              <div class="col-md-3">
+                <h4 class="ps-4" data-i18n="advantages.items.team.title">
+                  Nasza kadra
+                </h4>
+              </div>
+              <div class="col-md-4 ms-auto">
+                <p data-i18n="advantages.items.team.description">
+                  Doświadczeni i wykwalifikowani mechanicy, którzy z pełnym
+                  zaangażowaniem dbają o najwyższą jakość wykonywanych usług.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!-- Custom Scripts -->
-    <script src="./public/static/js/hello.js"></script>
-    <script src="/public/static/js/i18n.js"></script>
-    <script>
-      const i18n = new I18n();
-      i18n.init();
+    <!-- FAQ Section -->
+    <section id="faq" class="py-5 py-lg-7" aria-label="FAQ">
+      <div class="container faq-section">
+        <h2 class="text-center display-5 mb-3 fw-normal" data-i18n="faq.title">
+          Najczęściej Zadawane Pytania
+        </h2>
+        <div id="faqAccordion" class="accordion pt-4">
+          <div class="card faq-card" data-aos="fade-up" data-aos-delay="0">
+            <div id="headingOne" class="my-3">
+              <button class="btn btn-link" aria-controls="collapseOne" aria-expanded="false"
+                data-bs-target="#collapseOne" data-bs-toggle="collapse" type="button">
+                <h3 class="my-auto faq-heading" data-i18n="faq.questions.0.question">
+                  Czy muszę wcześniej umawiać wizytę?
+                </h3>
+                <span class="fa-solid fa-chevron-down faq-icon collapsed"></span>
+              </button>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+              <p data-i18n="faq.questions.0.answer">
+                Chociaż przyjmujemy klientów bez umówionych wizyt, zalecamy
+                wcześniejsze zarezerwowanie terminu, aby zapewnić obsługę w
+                preferowanym czasie i uniknąć oczekiwania.
+              </p>
+            </div>
+            <div class="divider-line"></div>
+          </div>
+          <div class="card faq-card" data-aos="fade-up" data-aos-delay="50">
+            <div id="headingTwo" class="my-3">
+              <button class="btn btn-link" aria-controls="collapseTwo" aria-expanded="false"
+                data-bs-target="#collapseTwo" data-bs-toggle="collapse" type="button">
+                <h3 class="my-auto faq-heading" data-i18n="faq.questions.1.question">
+                  Jak długo trwa standardowy przegląd samochodu?
+                </h3>
+                <span class="fa-solid fa-chevron-down faq-icon collapsed"></span>
+              </button>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+              <p data-i18n="faq.questions.1.answer">
+                Standardowy przegląd trwa około 1-2 godzin. Dokładny czas
+                zależy od modelu samochodu i zakresu usług. O szczegółowym
+                czasie poinformujemy po wstępnej diagnostyce.
+              </p>
+            </div>
+            <div class="divider-line"></div>
+          </div>
+          <div class="card faq-card" data-aos="fade-up" data-aos-delay="100">
+            <div id="headingThree" class="my-3">
+              <button class="btn btn-link" aria-controls="collapseThree" aria-expanded="false"
+                data-bs-target="#collapseThree" data-bs-toggle="collapse" type="button">
+                <h3 class="my-auto faq-heading" data-i18n="faq.questions.2.question">
+                  Czy udzielacie gwarancji na wykonane usługi?
+                </h3>
+                <span class="fa-solid fa-chevron-down faq-icon collapsed"></span>
+              </button>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+              <p data-i18n="faq.questions.2.answer">
+                Tak, na wszystkie wykonane usługi udzielamy 12-miesięcznej
+                gwarancji. Obejmuje ona zarówno części, jak i robociznę.
+              </p>
+            </div>
+            <div class="divider-line"></div>
+          </div>
+          <div class="card faq-card" data-aos="fade-up" data-aos-delay="150">
+            <div id="headingFour" class="my-3">
+              <button class="btn btn-link" aria-controls="collapseFour" aria-expanded="false"
+                data-bs-target="#collapseFour" data-bs-toggle="collapse" type="button">
+                <h3 class="my-auto faq-heading" data-i18n="faq.questions.3.question">
+                  Jakie formy płatności akceptujecie?
+                </h3>
+                <span class="fa-solid fa-chevron-down faq-icon collapsed"></span>
+              </button>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+              <p data-i18n="faq.questions.3.answer">
+                Akceptujemy płatności gotówką oraz przelewem bankowym. Dla
+                stałych klientów oferujemy również możliwość płatności
+                ratalnej.
+              </p>
+            </div>
+            <div class="divider-line"></div>
+          </div>
+          <div class="card faq-card" data-aos="fade-up" data-aos-delay="200">
+            <div id="headingFive" class="my-3">
+              <button class="btn btn-link" aria-controls="collapseFive" aria-expanded="false"
+                data-bs-target="#collapseFive" data-bs-toggle="collapse" type="button">
+                <h3 class="my-auto faq-heading" data-i18n="faq.questions.4.question">
+                  Jak mogę umówić się na wizytę?
+                </h3>
+                <span class="fa-solid fa-chevron-down faq-icon collapsed"></span>
+              </button>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+              <p data-i18n="faq.questions.4.answer">
+                Wizytę możesz umówić telefonicznie, dzwoniąc pod numer podany
+                w sekcji kontakt, lub osobiście odwiedzając nasz serwis. Nasi
+                pracownicy pomogą wybrać najdogodniejszy termin.
+              </p>
+            </div>
+            <div class="divider-line"></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      // Handle language selection
-      document.querySelectorAll("[data-lang]").forEach((elem) => {
-        elem.addEventListener("click", (e) => {
-          const lang = e.target.dataset.lang;
-          i18n.translate(lang);
-        });
+    <!-- Contact Section -->
+    <section id="contacts" class="py-5 py-lg-7" aria-label="Kontakt">
+      <div class="container" style="max-width: 1000px">
+        <h2 class="text-center display-5 mb-3 fw-normal" data-i18n="contacts.title">
+          Nasze Lokalizacje Serwisowe
+        </h2>
+        <p class="text-center mb-5" data-i18n="contacts.description">
+          Zadzwoń do nas, żeby umówić się na wizytę!
+        </p>
+        <ul id="locationTabs" class="nav nav-tabs mb-4 pt-4" data-aos="fade-up" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button id="pradnikCzerwony-tab" class="nav-link active" aria-controls="pradnikCzerwony"
+              aria-selected="true" data-bs-toggle="tab" data-bs-target="#pradnikCzerwony" role="tab" type="button">
+              <span data-i18n="contacts.tabs.pradnikCzerwony">
+                Prądnik Czerwony
+              </span>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button id="nowaHuta-tab" class="nav-link" aria-controls="nowaHuta" aria-selected="false"
+              data-bs-toggle="tab" data-bs-target="#nowaHuta" role="tab" type="button">
+              <span data-i18n="contacts.tabs.nowaHuta">Nowa Huta</span>
+            </button>
+          </li>
+        </ul>
+
+        <!-- Location Content -->
+        <div id="locationTabsContent" class="tab-content" data-aos="fade-up">
+          <div id="pradnikCzerwony" class="tab-pane fade show active" aria-labelledby="pradnikCzerwony-tab"
+            role="tabpanel">
+            <div class="contact-card" data-aos="zoom-in">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3 class="fw-normal mb-3" data-i18n="contacts.locations.pradnikCzerwony.contact.title">
+                    Kontakt z nami
+                  </h3>
+                  <p>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span data-i18n="contacts.locations.pradnikCzerwony.contact.address">
+                      Dobrego Pasterza 191, 31-416 Kraków
+                    </span>
+                  </p>
+                  <p>
+                    <i class="fas fa-phone"></i>
+                    <span data-i18n="contacts.locations.pradnikCzerwony.contact.phone">
+                      +48 575 181 919
+                    </span>
+                  </p>
+                  <p>
+                    <i class="fas fa-clock"></i>
+                    <span data-i18n="contacts.locations.pradnikCzerwony.contact.hours">
+                      Pon - Sob: 8:00 - 23:00
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <h3 class="fw-normal mb-3" data-i18n="contacts.locations.pradnikCzerwony.services.title">
+                    Usługi
+                  </h3>
+                  <ul class="contact-info">
+                    <li>
+                      <i class="fa-solid fa-gears"></i>
+                      <span data-i18n="contacts.locations.pradnikCzerwony.services.items.0">
+                        Serwis i Naprawa Silnika
+                      </span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-car-side"></i>
+                      <span data-i18n="contacts.locations.pradnikCzerwony.services.items.1">
+                        Naprawa Zawieszenia
+                      </span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-gas-pump"></i>
+                      <span data-i18n="contacts.locations.pradnikCzerwony.services.items.2">
+                        Naprawa Układu Wydechowego
+                      </span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-wrench"></i>
+                      <span data-i18n="contacts.locations.pradnikCzerwony.services.items.3">
+                        Wymiana Opon
+                      </span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-snowflake"></i>
+                      <span data-i18n="contacts.locations.pradnikCzerwony.services.items.4">
+                        Serwis Klimatyzacji
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="nowaHuta" class="tab-pane fade" aria-labelledby="nowaHuta-tab" role="tabpanel">
+            <div class="contact-card" data-aos="zoom-in">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3 class="fw-normal mb-3" data-i18n="contacts.locations.nowaHuta.contact.title">
+                    Kontakt z nami
+                  </h3>
+                  <p>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span data-i18n="contacts.locations.nowaHuta.contact.address">
+                      Kornela Makuszyńskiego 17, 31-752 Kraków
+                    </span>
+                  </p>
+                  <p>
+                    <i class="fas fa-phone"></i>
+                    <span data-i18n="contacts.locations.nowaHuta.contact.phone">
+                      +48 570 460 270
+                    </span>
+                  </p>
+                  <p>
+                    <i class="fas fa-clock"></i>
+                    <span data-i18n="contacts.locations.nowaHuta.contact.hours">
+                      Pon - Sob: 8:00 - 23:00
+                    </span>
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <h3 class="fw-normal mb-3" data-i18n="contacts.locations.nowaHuta.services.title">
+                    Usługi
+                  </h3>
+                  <ul class="contact-info">
+                    <li>
+                      <i class="fa-solid fa-gears"></i>
+                      <span data-i18n="contacts.locations.nowaHuta.services.items.0">
+                        Serwis i Naprawa Silnika
+                      </span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-car-side"></i>
+                      <span data-i18n="contacts.locations.nowaHuta.services.items.1">
+                        Naprawa Zawieszenia
+                      </span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-gas-pump"></i>
+                      <span data-i18n="contacts.locations.nowaHuta.services.items.2">
+                        Naprawa Układu Wydechowego
+                      </span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-wrench"></i>
+                      <span data-i18n="contacts.locations.nowaHuta.services.items.3">
+                        Wymiana Opon
+                      </span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-snowflake"></i>
+                      <span data-i18n="contacts.locations.nowaHuta.services.items.4">
+                        Serwis Klimatyzacji
+                      </span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-bolt"></i>
+                      <span data-i18n="contacts.locations.nowaHuta.services.items.5">
+                        Naprawa Elektryki
+                      </span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-ruler-combined"></i>
+                      <span data-i18n="contacts.locations.nowaHuta.services.items.6">
+                        Ustawienie Zbieżności Kół
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-white py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Copyright -->
+        <div class="col-md-6">
+          <p class="mb-0" data-i18n="footer.copyright">&copy; SMotors 2024</p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="col-md-6 text-md-end">
+          <a href="https://facebook.com/SMotorsPL" target="_blank" class="me-3 social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://tiktok.com" target="_blank" class="me-3 social-icon"><i class="fab fa-tiktok"></i></a>
+          <a href="https://instagram.com/smotorspl" target="_blank" class="social-icon"><i
+              class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Essential Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Enhancement Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Custom Scripts -->
+  <script src="./public/static/js/hello.js"></script>
+  <script src="/public/static/js/i18n.js"></script>
+  <script>
+    const i18n = new I18n();
+    i18n.init();
+
+    // Handle language selection
+    document.querySelectorAll("[data-lang]").forEach((elem) => {
+      elem.addEventListener("click", (e) => {
+        const lang = e.target.dataset.lang;
+        i18n.translate(lang);
       });
-    </script>
-    <script>
-      // FAQ Accordion Icon Animation
-      $(".collapse")
-        .on("show.bs.collapse", function () {
-          $(this).prev().find(".faq-icon").removeClass("collapsed");
-        })
-        .on("hide.bs.collapse", function () {
-          $(this).prev().find(".faq-icon").addClass("collapsed");
-        });
-
-      // Initialize AOS (Animate On Scroll)
-      AOS.init({
-        duration: 500,
-        once: true,
-        offset: 100,
+    });
+  </script>
+  <script>
+    // FAQ Accordion Icon Animation
+    $(".collapse")
+      .on("show.bs.collapse", function () {
+        $(this).prev().find(".faq-icon").removeClass("collapsed");
+      })
+      .on("hide.bs.collapse", function () {
+        $(this).prev().find(".faq-icon").addClass("collapsed");
       });
-    </script>
-  </body>
+
+    // Initialize AOS (Animate On Scroll)
+    AOS.init({
+      duration: 500,
+      once: true,
+      offset: 100,
+    });
+  </script>
+</body>
+
 </html>
