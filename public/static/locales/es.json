@@ -1,0 +1,177 @@
+{
+  "title": "SMotors - Servicio de Automóviles Profesional en Cracovia",
+  "meta": {
+    "charset": "UTF-8",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "author": "SMotors",
+    "robots": "index, follow",
+    "google": "notranslate",
+    "keywords": "servicio de automóviles Cracovia, mecánico Cracovia, taller de automóviles Cracovia, reparación de automóviles, cambio de neumáticos Cracovia, servicio de aire acondicionado Cracovia, reparación de suspensión, electricidad automotriz",
+    "description": "SMotors - servicio de automóviles profesional en Cracovia. Reparación completa de automóviles, cambio de neumáticos, servicio de aire acondicionado y electricidad. Garantía en los servicios. Dos ubicaciones: Prądnik Czerwony y Nowa Huta."
+  },
+  "openGraph": {
+    "type": "website",
+    "url": "https://smotors.pl",
+    "siteName": "SMotors Cracovia",
+    "image": "https://smotors.pl/public/static/images/logo.png",
+    "imageAlt": "Logotipo de SMotors",
+    "title": "SMotors - Servicio de Automóviles Profesional en Cracovia",
+    "description": "SMotors - servicio de automóviles profesional en Cracovia. Reparación completa de automóviles, cambio de neumáticos, servicio de aire acondicionado y electricidad. Garantía en los servicios."
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "SMotors - Servicio de Automóviles Profesional en Cracovia",
+    "description": "SMotors - servicio de automóviles profesional en Cracovia. Reparación completa de automóviles, cambio de neumáticos, servicio de aire acondicionado y electricidad.",
+    "image": "https://smotors.pl/public/static/images/logo.png"
+  },
+  "navbar": {
+    "languages": {
+      "current": "ES",
+      "options": {
+        "pl": "Polski",
+        "ua": "Українська",
+        "en": "English",
+        "ru": "Русский",
+        "de": "Deutsch",
+        "es": "Español"
+      }
+    },
+    "navItems": {
+      "services": "Servicios",
+      "advantages": "Ventajas",
+      "faq": "Preguntas Frecuentes",
+      "contact": "Contacto"
+    },
+    "button": "Reservar Ahora"
+  },
+  "hero": {
+    "headline": "Cuidamos tu automóvil, tú ahorras tiempo",
+    "paragraph": "Ofrecemos un servicio de alta calidad con un enfoque individual para cada cliente. Desde 2018, aseguramos la confiabilidad de tu vehículo basándonos en la honestidad, profesionalismo y excelente mano de obra.",
+    "button": "Reservar Ahora",
+    "altImage": "Automóvil en el servicio de SMotors"
+  },
+  "services": {
+    "title": "Servicios",
+    "description": "Nos enorgullece ofrecer servicios completos de reparación y mantenimiento de automóviles.",
+    "cards": {
+      "suspensionRepair": {
+        "title": "Reparación de Suspensión",
+        "description": "Reparación completa de suspensión para comodidad y seguridad."
+      },
+      "electricRepair": {
+        "title": "Reparación Eléctrica",
+        "description": "Diagnóstico y reparaciones eléctricas — confiabilidad garantizada."
+      },
+      "tireChange": {
+        "title": "Cambio de Neumáticos",
+        "description": "Servicio de neumáticos y llantas para comodidad y seguridad."
+      },
+      "acService": {
+        "title": "Servicio de Aire Acondicionado",
+        "description": "Reparación completa de aire acondicionado para comodidad durante todo el año."
+      }
+    }
+  },
+  "advantages": {
+    "title": "¿Por Qué SMotors?",
+    "description": "¡Elíjenos y olvídese de los problemas de reparación de automóviles!",
+    "items": {
+      "warranty": {
+        "title": "Garantía de 1 Año",
+        "description": "Ofrecemos una garantía de un año en todos nuestros servicios, confirmando nuestra confianza en la calidad de nuestro trabajo."
+      },
+      "fullService": {
+        "title": "Gama Completa de Servicios",
+        "description": "Ofrecemos servicios automotrices completos, desde diagnósticos hasta reparaciones, para satisfacer cualquier desafío."
+      },
+      "repairHistory": {
+        "title": "Historial de Reparaciones del Vehículo",
+        "description": "Cada cliente recibe un informe detallado del historial de reparaciones de su vehículo, facilitando la planificación de futuros servicios."
+      },
+      "team": {
+        "title": "Nuestro Equipo",
+        "description": "Mecánicos experimentados y calificados que están totalmente comprometidos a garantizar la más alta calidad de los servicios."
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "question": "¿Necesito hacer una cita con anticipación?",
+        "answer": "Aunque aceptamos clientes sin cita previa, recomendamos reservar una cita con anticipación para asegurar el servicio en el horario preferido y evitar esperas."
+      },
+      {
+        "question": "¿Cuánto tiempo dura una inspección estándar del automóvil?",
+        "answer": "Una inspección estándar dura aproximadamente 1-2 horas. El tiempo exacto depende del modelo del automóvil y del alcance de los servicios. Le informaremos sobre el tiempo detallado después del diagnóstico inicial."
+      },
+      {
+        "question": "¿Ofrecen garantía en los servicios realizados?",
+        "answer": "Sí, ofrecemos una garantía de 12 meses en todos los servicios realizados. Cubre tanto las piezas como la mano de obra."
+      },
+      {
+        "question": "¿Qué formas de pago aceptan?",
+        "answer": "Aceptamos efectivo y transferencias bancarias. Para clientes habituales, también ofrecemos la opción de pagos a plazos."
+      },
+      {
+        "question": "¿Cómo puedo programar una cita?",
+        "answer": "Puede programar una cita llamando al número proporcionado en la sección de contacto o visitando nuestro centro de servicio en persona. Nuestro personal le ayudará a elegir el horario más conveniente."
+      }
+    ]
+  },
+  "contacts": {
+    "title": "Nuestras Ubicaciones de Servicio",
+    "description": "¡Llámenos para programar una cita!",
+    "tabs": {
+      "pradnikCzerwony": "Prądnik Czerwony",
+      "nowaHuta": "Nowa Huta"
+    },
+    "locations": {
+      "pradnikCzerwony": {
+        "contact": {
+          "title": "Contáctenos",
+          "address": "Dobrego Pasterza 191, 31-416 Cracovia",
+          "phone": "+48 575 181 919",
+          "hours": "Lun - Sáb: 8:00 AM - 11:00 PM"
+        },
+        "services": {
+          "title": "Servicios",
+          "items": [
+            "Servicio y Reparación de Motor",
+            "Reparación de Suspensión",
+            "Reparación del Sistema de Escape",
+            "Cambio de Neumáticos",
+            "Servicio de Aire Acondicionado"
+          ]
+        }
+      },
+      "nowaHuta": {
+        "contact": {
+          "title": "Contáctenos",
+          "address": "Kornela Makuszyńskiego 17, 31-752 Cracovia",
+          "phone": "+48 570 460 270",
+          "hours": "Lun - Sáb: 8:00 AM - 11:00 PM"
+        },
+        "services": {
+          "title": "Servicios",
+          "items": [
+            "Servicio y Reparación de Motor",
+            "Reparación de Suspensión",
+            "Reparación del Sistema de Escape",
+            "Cambio de Neumáticos",
+            "Servicio de Aire Acondicionado",
+            "Reparación Eléctrica",
+            "Alineación de Ruedas"
+          ]
+        }
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© SMotors 2024"
+  },
+  "accessibility": {
+    "logoAlt": "Logotipo de SMotors",
+    "carImageAlt": "Automóvil en el servicio de SMotors"
+  }
+}

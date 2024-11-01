@@ -1,0 +1,177 @@
+{
+  "title": "SMotors - Professioneller Autoservice in Krakau",
+  "meta": {
+    "charset": "UTF-8",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "author": "SMotors",
+    "robots": "index, follow",
+    "google": "notranslate",
+    "keywords": "Autoservice Krakau, Mechaniker Krakau, Autowerkstatt Krakau, Autoreparatur, Reifenwechsel Krakau, Klimaservice Krakau, Federungsreparatur, Fahrzeug-Elektrik",
+    "description": "SMotors - professioneller Autoservice in Krakau. Umfassende Autoreparatur, Reifenwechsel, Klimaservice und Elektrik-Service. Garantie auf Dienstleistungen. Zwei Standorte: Prądnik Czerwony und Nowa Huta."
+  },
+  "openGraph": {
+    "type": "website",
+    "url": "https://smotors.pl",
+    "siteName": "SMotors Krakau",
+    "image": "https://smotors.pl/public/static/images/logo.png",
+    "imageAlt": "SMotors-Logo",
+    "title": "SMotors - Professioneller Autoservice in Krakau",
+    "description": "SMotors - professioneller Autoservice in Krakau. Umfassende Autoreparatur, Reifenwechsel, Klimaservice und Elektrik-Service. Garantie auf Dienstleistungen."
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "SMotors - Professioneller Autoservice in Krakau",
+    "description": "SMotors - professioneller Autoservice in Krakau. Umfassende Autoreparatur, Reifenwechsel, Klimaservice und Elektrik-Service.",
+    "image": "https://smotors.pl/public/static/images/logo.png"
+  },
+  "navbar": {
+    "languages": {
+      "current": "DE",
+      "options": {
+        "pl": "Polski",
+        "ua": "Українська",
+        "en": "English",
+        "ru": "Русский",
+        "de": "Deutsch",
+        "es": "Español"
+      }
+    },
+    "navItems": {
+      "services": "Dienstleistungen",
+      "advantages": "Vorteile",
+      "faq": "FAQ",
+      "contact": "Kontakt"
+    },
+    "button": "Jetzt Buchen"
+  },
+  "hero": {
+    "headline": "Wir kümmern uns um Ihr Auto, Sie sparen Zeit",
+    "paragraph": "Wir bieten hochwertigen Service mit individuellem Ansatz für jeden Kunden. Seit 2018 gewährleisten wir die Zuverlässigkeit Ihres Fahrzeugs basierend auf Ehrlichkeit, Professionalität und hervorragender Handwerkskunst.",
+    "button": "Jetzt Buchen",
+    "altImage": "Auto im SMotors-Service"
+  },
+  "services": {
+    "title": "Dienstleistungen",
+    "description": "Wir sind stolz darauf, umfassende Autoreparatur- und Serviceleistungen anzubieten.",
+    "cards": {
+      "suspensionRepair": {
+        "title": "Federungsreparatur",
+        "description": "Umfassende Federungsreparatur für Komfort und Sicherheit."
+      },
+      "electricRepair": {
+        "title": "Elektrikreparatur",
+        "description": "Diagnose und Elektrikreparaturen — Zuverlässigkeit garantiert."
+      },
+      "tireChange": {
+        "title": "Reifenwechsel",
+        "description": "Reifen- und Felgenservice für Komfort und Sicherheit."
+      },
+      "acService": {
+        "title": "Klimaservice",
+        "description": "Umfassende Klimareparatur für ganzjährigen Komfort."
+      }
+    }
+  },
+  "advantages": {
+    "title": "Warum SMotors?",
+    "description": "Wählen Sie uns und vergessen Sie die Probleme mit der Autoreparatur!",
+    "items": {
+      "warranty": {
+        "title": "1-Jahres-Garantie",
+        "description": "Wir bieten eine einjährige Garantie auf alle unsere Dienstleistungen, was unser Vertrauen in die Qualität unserer Arbeit bestätigt."
+      },
+      "fullService": {
+        "title": "Vollständiges Dienstleistungsangebot",
+        "description": "Wir bieten umfassende Automobildienstleistungen, von der Diagnose bis zur Reparatur, um jede Herausforderung zu meistern."
+      },
+      "repairHistory": {
+        "title": "Fahrzeugreparaturhistorie",
+        "description": "Jeder Kunde erhält einen detaillierten Bericht über die Reparaturhistorie seines Fahrzeugs, was die zukünftige Serviceplanung erleichtert."
+      },
+      "team": {
+        "title": "Unser Team",
+        "description": "Erfahrene und qualifizierte Mechaniker, die sich voll und ganz dafür einsetzen, die höchste Servicequalität zu gewährleisten."
+      }
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "questions": [
+      {
+        "question": "Muss ich im Voraus einen Termin vereinbaren?",
+        "answer": "Obwohl wir Kunden ohne Termin aufnehmen, empfehlen wir, im Voraus einen Termin zu buchen, um den Service zu Ihrer bevorzugten Zeit sicherzustellen und Wartezeiten zu vermeiden."
+      },
+      {
+        "question": "Wie lange dauert eine Standard-Autoinspektion?",
+        "answer": "Eine Standardinspektion dauert etwa 1-2 Stunden. Die genaue Zeit hängt vom Automodell und dem Umfang der Dienstleistungen ab. Wir informieren Sie nach der ersten Diagnose über die genaue Zeit."
+      },
+      {
+        "question": "Bieten Sie eine Garantie auf die durchgeführten Dienstleistungen?",
+        "answer": "Ja, wir bieten eine 12-monatige Garantie auf alle durchgeführten Dienstleistungen. Sie deckt sowohl Teile als auch Arbeit ab."
+      },
+      {
+        "question": "Welche Zahlungsarten akzeptieren Sie?",
+        "answer": "Wir akzeptieren Bargeld und Banküberweisungen. Für Stammkunden bieten wir auch die Möglichkeit von Ratenzahlungen an."
+      },
+      {
+        "question": "Wie kann ich einen Termin vereinbaren?",
+        "answer": "Sie können einen Termin vereinbaren, indem Sie die in der Kontaktsektion angegebene Nummer anrufen oder unser Servicezentrum persönlich besuchen. Unser Personal hilft Ihnen, die bequemste Zeit auszuwählen."
+      }
+    ]
+  },
+  "contacts": {
+    "title": "Unsere Servicestandorte",
+    "description": "Rufen Sie uns an, um einen Termin zu vereinbaren!",
+    "tabs": {
+      "pradnikCzerwony": "Prądnik Czerwony",
+      "nowaHuta": "Nowa Huta"
+    },
+    "locations": {
+      "pradnikCzerwony": {
+        "contact": {
+          "title": "Kontaktieren Sie uns",
+          "address": "Dobrego Pasterza 191, 31-416 Krakau",
+          "phone": "+48 575 181 919",
+          "hours": "Mo - Sa: 8:00 - 23:00"
+        },
+        "services": {
+          "title": "Dienstleistungen",
+          "items": [
+            "Motorservice und -reparatur",
+            "Federungsreparatur",
+            "Auspuffanlagenreparatur",
+            "Reifenwechsel",
+            "Klimaservice"
+          ]
+        }
+      },
+      "nowaHuta": {
+        "contact": {
+          "title": "Kontaktieren Sie uns",
+          "address": "Kornela Makuszyńskiego 17, 31-752 Krakau",
+          "phone": "+48 570 460 270",
+          "hours": "Mo - Sa: 8:00 - 23:00"
+        },
+        "services": {
+          "title": "Dienstleistungen",
+          "items": [
+            "Motorservice und -reparatur",
+            "Federungsreparatur",
+            "Auspuffanlagenreparatur",
+            "Reifenwechsel",
+            "Klimaservice",
+            "Elektrikreparatur",
+            "Radausrichtung"
+          ]
+        }
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© SMotors 2024"
+  },
+  "accessibility": {
+    "logoAlt": "SMotors-Logo",
+    "carImageAlt": "Auto im SMotors-Service"
+  }
+}

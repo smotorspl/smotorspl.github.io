@@ -1,2 +1,27 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+* text=auto        eol=lf
+
+# HTML
+*.html             text     diff=html
+
+# CSS
+*.css              text     diff=css
+
+# JavaScript
+*.js               text
+*.json             text
+
+# Graphics
+*.png              binary
+*.ico              binary
+
+# Documentation
+*.md               text     diff=markdown
+
+# XML
+*.xml text
+
+# Config files
+*.gitattributes     text
+manifest.json       text
+robots.txt          text

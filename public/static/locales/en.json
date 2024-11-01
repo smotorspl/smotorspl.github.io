@@ -1,0 +1,177 @@
+{
+  "title": "SMotors - Professional Car Service in Krakow",
+  "meta": {
+    "charset": "UTF-8",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "author": "SMotors",
+    "robots": "index, follow",
+    "google": "notranslate",
+    "keywords": "car service Krakow, mechanic Krakow, car workshop Krakow, car repair, tire change Krakow, air conditioning service Krakow, suspension repair, automotive electrical",
+    "description": "SMotors - professional car service in Krakow. Comprehensive car repair, tire change, air conditioning and electrical service. Warranty on services. Two locations: Prądnik Czerwony and Nowa Huta."
+  },
+  "openGraph": {
+    "type": "website",
+    "url": "https://smotors.pl",
+    "siteName": "SMotors Krakow",
+    "image": "https://smotors.pl/public/static/images/logo.png",
+    "imageAlt": "SMotors Logo",
+    "title": "SMotors - Professional Car Service in Krakow",
+    "description": "SMotors - professional car service in Krakow. Comprehensive car repair, tire change, air conditioning and electrical service. Warranty on services."
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "SMotors - Professional Car Service in Krakow",
+    "description": "SMotors - professional car service in Krakow. Comprehensive car repair, tire change, air conditioning and electrical service.",
+    "image": "https://smotors.pl/public/static/images/logo.png"
+  },
+  "navbar": {
+    "languages": {
+      "current": "EN",
+      "options": {
+        "pl": "Polski",
+        "ua": "Українська",
+        "en": "English",
+        "ru": "Русский",
+        "de": "Deutsch",
+        "es": "Español"
+      }
+    },
+    "navItems": {
+      "services": "Services",
+      "advantages": "Advantages",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "button": "Book Now"
+  },
+  "hero": {
+    "headline": "We take care of your car, you save time",
+    "paragraph": "We offer high-quality service with an individual approach to each client. Since 2018, we have been ensuring the reliability of your vehicle based on honesty, professionalism, and excellent workmanship.",
+    "button": "Book Now",
+    "altImage": "Car at SMotors service"
+  },
+  "services": {
+    "title": "Services",
+    "description": "We are proud to offer comprehensive car repair and service services.",
+    "cards": {
+      "suspensionRepair": {
+        "title": "Suspension Repair",
+        "description": "Comprehensive suspension repair for comfort and safety."
+      },
+      "electricRepair": {
+        "title": "Electrical Repair",
+        "description": "Diagnostics and electrical repairs — reliability guaranteed."
+      },
+      "tireChange": {
+        "title": "Tire Change",
+        "description": "Tire and rim service for comfort and safety."
+      },
+      "acService": {
+        "title": "Air Conditioning Service",
+        "description": "Comprehensive air conditioning repair for year-round comfort."
+      }
+    }
+  },
+  "advantages": {
+    "title": "Why SMotors?",
+    "description": "Choose us and forget about car repair problems!",
+    "items": {
+      "warranty": {
+        "title": "1-Year Warranty",
+        "description": "We offer a one-year warranty on all our services, confirming our confidence in the quality of our work."
+      },
+      "fullService": {
+        "title": "Full Range of Services",
+        "description": "We offer comprehensive automotive services, from diagnostics to repairs, to meet every challenge."
+      },
+      "repairHistory": {
+        "title": "Vehicle Repair History",
+        "description": "Each client receives a detailed report of their vehicle's repair history, facilitating future service planning."
+      },
+      "team": {
+        "title": "Our Team",
+        "description": "Experienced and qualified mechanics who are fully committed to ensuring the highest quality of services."
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "Do I need to make an appointment in advance?",
+        "answer": "Although we accept walk-in customers, we recommend booking an appointment in advance to ensure service at your preferred time and avoid waiting."
+      },
+      {
+        "question": "How long does a standard car inspection take?",
+        "answer": "A standard inspection takes about 1-2 hours. The exact time depends on the car model and the scope of services. We will inform you about the detailed time after the initial diagnostics."
+      },
+      {
+        "question": "Do you provide a warranty on the services performed?",
+        "answer": "Yes, we provide a 12-month warranty on all performed services. It covers both parts and labor."
+      },
+      {
+        "question": "What forms of payment do you accept?",
+        "answer": "We accept cash and bank transfers. For regular customers, we also offer the option of installment payments."
+      },
+      {
+        "question": "How can I schedule an appointment?",
+        "answer": "You can schedule an appointment by calling the number provided in the contact section or by visiting our service center in person. Our staff will help you choose the most convenient time."
+      }
+    ]
+  },
+  "contacts": {
+    "title": "Our Service Locations",
+    "description": "Call us to schedule an appointment!",
+    "tabs": {
+      "pradnikCzerwony": "Prądnik Czerwony",
+      "nowaHuta": "Nowa Huta"
+    },
+    "locations": {
+      "pradnikCzerwony": {
+        "contact": {
+          "title": "Contact Us",
+          "address": "Dobrego Pasterza 191, 31-416 Krakow",
+          "phone": "+48 575 181 919",
+          "hours": "Mon - Sat: 8:00 AM - 11:00 PM"
+        },
+        "services": {
+          "title": "Services",
+          "items": [
+            "Engine Service and Repair",
+            "Suspension Repair",
+            "Exhaust System Repair",
+            "Tire Change",
+            "Air Conditioning Service"
+          ]
+        }
+      },
+      "nowaHuta": {
+        "contact": {
+          "title": "Contact Us",
+          "address": "Kornela Makuszyńskiego 17, 31-752 Krakow",
+          "phone": "+48 570 460 270",
+          "hours": "Mon - Sat: 8:00 AM - 11:00 PM"
+        },
+        "services": {
+          "title": "Services",
+          "items": [
+            "Engine Service and Repair",
+            "Suspension Repair",
+            "Exhaust System Repair",
+            "Tire Change",
+            "Air Conditioning Service",
+            "Electrical Repair",
+            "Wheel Alignment"
+          ]
+        }
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© SMotors 2024"
+  },
+  "accessibility": {
+    "logoAlt": "SMotors Logo",
+    "carImageAlt": "Car at SMotors service"
+  }
+}
