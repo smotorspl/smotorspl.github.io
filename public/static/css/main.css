@@ -71,7 +71,7 @@ p i {
 }
 
 .navbar-nav .nav-link::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 2px;
@@ -174,7 +174,7 @@ p i {
 }
 
 .advantage-row::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -184,7 +184,7 @@ p i {
 }
 
 .advantage-row::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -291,7 +291,7 @@ p i {
 }
 
 .nav-tabs .nav-link::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 2px;
@@ -307,12 +307,12 @@ p i {
   width: fit-content;
 }
 
-.nav-tabs .nav-link>span {
+.nav-tabs .nav-link > span {
   position: relative;
 }
 
-.nav-tabs .nav-link>span::after {
-  content: '';
+.nav-tabs .nav-link > span::after {
+  content: "";
   position: absolute;
   width: 0;
   height: 2px;
@@ -322,8 +322,8 @@ p i {
   transition: width 0.3s ease;
 }
 
-.nav-tabs .nav-link:hover>span::after,
-.nav-tabs .nav-link.active>span::after {
+.nav-tabs .nav-link:hover > span::after,
+.nav-tabs .nav-link.active > span::after {
   width: 100%;
 }
 
@@ -379,4 +379,61 @@ p i {
 .navbar-nav.mx-auto li:last-child a.nav-link {
   padding-right: 0 !important;
   margin-right: 0 !important;
+}
+
+/* Google Consent Banner */
+.consent-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--bs-dark);
+  padding: 1rem;
+  z-index: 9999;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.consent-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.consent-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.consent-buttons button {
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+#accept-all {
+  background-color: var(--bs-primary);
+  color: white;
+}
+
+#accept-necessary {
+  background-color: transparent;
+  border: 1px solid var(--bs-primary);
+  color: var(--bs-primary);
+}
+
+@media (max-width: 768px) {
+  .consent-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .consent-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
 }
