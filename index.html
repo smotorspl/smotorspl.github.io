@@ -472,64 +472,82 @@
             role="tabpanel">
             <div class="contact-card" data-aos="zoom-in">
               <div class="row">
-                <div class="col-md-6">
-                  <h3 class="fw-normal mb-3" data-i18n="contacts.locations.pradnikCzerwony.contact.title">
-                    Kontakt z nami
-                  </h3>
-                  <p>
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span data-i18n="contacts.locations.pradnikCzerwony.contact.address">
-                      Dobrego Pasterza 191, 31-416 Kraków
-                    </span>
-                  </p>
-                  <p>
-                    <i class="fas fa-phone"></i>
-                    <span data-i18n="contacts.locations.pradnikCzerwony.contact.phone">
-                      +48 575 181 919
-                    </span>
-                  </p>
-                  <p>
-                    <i class="fas fa-clock"></i>
-                    <span data-i18n="contacts.locations.pradnikCzerwony.contact.hours">
-                      Pon - Sob: 8:00 - 23:00
-                  </p>
+                <!-- Left Column: Contact + Services -->
+                <div class="col-md-5">
+                  <!-- Contact Info -->
+                  <div class="contact-info-section section-spacing">
+                    <h3 class="fw-normal mb-3" data-i18n="contacts.locations.pradnikCzerwony.contact.title">
+                      Kontakt z nami
+                    </h3>
+                    <p>
+                      <i class="fas fa-map-marker-alt"></i>
+                      <span data-i18n="contacts.locations.pradnikCzerwony.contact.address">
+                        Dobrego Pasterza 191, 31-416 Kraków
+                      </span>
+                    </p>
+                    <p>
+                      <i class="fas fa-phone"></i>
+                      <a href="tel:+48575181919" class="text-decoration-none">
+                        <span data-i18n="contacts.locations.pradnikCzerwony.contact.phone">
+                          +48 575 181 919
+                        </span>
+                      </a>
+                    </p>
+                    <p>
+                      <i class="fas fa-clock"></i>
+                      <span data-i18n="contacts.locations.pradnikCzerwony.contact.hours">
+                        Pon - Sob: 8:00 - 23:00
+                    </p>
+                  </div>
+
+                  <!-- Services -->
+                  <div>
+                    <h3 class="fw-normal mb-3" data-i18n="contacts.locations.pradnikCzerwony.services.title">
+                      Usługi
+                    </h3>
+                    <ul class="contact-info">
+                      <li>
+                        <i class="fa-solid fa-gears"></i>
+                        <span data-i18n="contacts.locations.pradnikCzerwony.services.items.0">
+                          Serwis i Naprawa Silnika
+                        </span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-car-side"></i>
+                        <span data-i18n="contacts.locations.pradnikCzerwony.services.items.1">
+                          Naprawa Zawieszenia
+                        </span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-gas-pump"></i>
+                        <span data-i18n="contacts.locations.pradnikCzerwony.services.items.2">
+                          Naprawa Układu Wydechowego
+                        </span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-wrench"></i>
+                        <span data-i18n="contacts.locations.pradnikCzerwony.services.items.3">
+                          Wymiana Opon
+                        </span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-snowflake"></i>
+                        <span data-i18n="contacts.locations.pradnikCzerwony.services.items.4">
+                          Serwis Klimatyzacji
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <div class="col-md-6">
-                  <h3 class="fw-normal mb-3" data-i18n="contacts.locations.pradnikCzerwony.services.title">
-                    Usługi
-                  </h3>
-                  <ul class="contact-info">
-                    <li>
-                      <i class="fa-solid fa-gears"></i>
-                      <span data-i18n="contacts.locations.pradnikCzerwony.services.items.0">
-                        Serwis i Naprawa Silnika
-                      </span>
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-car-side"></i>
-                      <span data-i18n="contacts.locations.pradnikCzerwony.services.items.1">
-                        Naprawa Zawieszenia
-                      </span>
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-gas-pump"></i>
-                      <span data-i18n="contacts.locations.pradnikCzerwony.services.items.2">
-                        Naprawa Układu Wydechowego
-                      </span>
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-wrench"></i>
-                      <span data-i18n="contacts.locations.pradnikCzerwony.services.items.3">
-                        Wymiana Opon
-                      </span>
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-snowflake"></i>
-                      <span data-i18n="contacts.locations.pradnikCzerwony.services.items.4">
-                        Serwis Klimatyzacji
-                      </span>
-                    </li>
-                  </ul>
+
+                <!-- Right Column: Map -->
+                <div class="col-md-7">
+                  <div class="map-container">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10239.215019237203!2d19.9749722!3d50.089961!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165ac0f39ee557%3A0x6b9547bc4db8792c!2sSMotors!5e0!3m2!1sen!2spl!4v1731862819662!5m2!1sen!2spl"
+                      width="100%" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
                 </div>
               </div>
             </div>
@@ -537,77 +555,96 @@
           <div id="nowaHuta" class="tab-pane fade" aria-labelledby="nowaHuta-tab" role="tabpanel">
             <div class="contact-card" data-aos="zoom-in">
               <div class="row">
-                <div class="col-md-6">
-                  <h3 class="fw-normal mb-3" data-i18n="contacts.locations.nowaHuta.contact.title">
-                    Kontakt z nami
-                  </h3>
-                  <p>
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span data-i18n="contacts.locations.nowaHuta.contact.address">
-                      Kornela Makuszyńskiego 17, 31-752 Kraków
-                    </span>
-                  </p>
-                  <p>
-                    <i class="fas fa-phone"></i>
-                    <span data-i18n="contacts.locations.nowaHuta.contact.phone">
-                      +48 570 460 270
-                    </span>
-                  </p>
-                  <p>
-                    <i class="fas fa-clock"></i>
-                    <span data-i18n="contacts.locations.nowaHuta.contact.hours">
-                      Pon - Sob: 8:00 - 23:00
-                    </span>
-                  </p>
+                <!-- Left Column: Contact + Services -->
+                <div class="col-md-5">
+                  <!-- Contact Info -->
+                  <div class="contact-info-section section-spacing">
+                    <h3 class="fw-normal mb-3" data-i18n="contacts.locations.nowaHuta.contact.title">
+                      Kontakt z nami
+                    </h3>
+                    <p>
+                      <i class="fas fa-map-marker-alt"></i>
+                      <span class="address-wrapper">
+                        <span>Kornela Makuszyńskiego 17,</span>
+                        <span class="address-second-line">31-752 Kraków</span>
+                      </span>
+                    </p>
+                    <p>
+                      <i class="fas fa-phone"></i>
+                      <a href="tel:+48570460270" class="text-decoration-none">
+                        <span data-i18n="contacts.locations.nowaHuta.contact.phone">
+                          +48 570 460 270
+                        </span>
+                      </a>
+                    </p>
+                    <p>
+                      <i class="fas fa-clock"></i>
+                      <span data-i18n="contacts.locations.nowaHuta.contact.hours">
+                        Pon - Sob: 8:00 - 23:00
+                      </span>
+                    </p>
+                  </div>
+
+                  <!-- Services -->
+                  <div>
+                    <h3 class="fw-normal mb-3" data-i18n="contacts.locations.nowaHuta.services.title">
+                      Usługi
+                    </h3>
+                    <ul class="contact-info">
+                      <li>
+                        <i class="fa-solid fa-gears"></i>
+                        <span data-i18n="contacts.locations.nowaHuta.services.items.0">
+                          Serwis i Naprawa Silnika
+                        </span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-car-side"></i>
+                        <span data-i18n="contacts.locations.nowaHuta.services.items.1">
+                          Naprawa Zawieszenia
+                        </span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-gas-pump"></i>
+                        <span data-i18n="contacts.locations.nowaHuta.services.items.2">
+                          Naprawa Układu Wydechowego
+                        </span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-wrench"></i>
+                        <span data-i18n="contacts.locations.nowaHuta.services.items.3">
+                          Wymiana Opon
+                        </span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-snowflake"></i>
+                        <span data-i18n="contacts.locations.nowaHuta.services.items.4">
+                          Serwis Klimatyzacji
+                        </span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-bolt"></i>
+                        <span data-i18n="contacts.locations.nowaHuta.services.items.5">
+                          Naprawa Elektryki
+                        </span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-ruler-combined"></i>
+                        <span data-i18n="contacts.locations.nowaHuta.services.items.6">
+                          Ustawienie Zbieżności Kół
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <div class="col-md-6">
-                  <h3 class="fw-normal mb-3" data-i18n="contacts.locations.nowaHuta.services.title">
-                    Usługi
-                  </h3>
-                  <ul class="contact-info">
-                    <li>
-                      <i class="fa-solid fa-gears"></i>
-                      <span data-i18n="contacts.locations.nowaHuta.services.items.0">
-                        Serwis i Naprawa Silnika
-                      </span>
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-car-side"></i>
-                      <span data-i18n="contacts.locations.nowaHuta.services.items.1">
-                        Naprawa Zawieszenia
-                      </span>
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-gas-pump"></i>
-                      <span data-i18n="contacts.locations.nowaHuta.services.items.2">
-                        Naprawa Układu Wydechowego
-                      </span>
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-wrench"></i>
-                      <span data-i18n="contacts.locations.nowaHuta.services.items.3">
-                        Wymiana Opon
-                      </span>
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-snowflake"></i>
-                      <span data-i18n="contacts.locations.nowaHuta.services.items.4">
-                        Serwis Klimatyzacji
-                      </span>
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-bolt"></i>
-                      <span data-i18n="contacts.locations.nowaHuta.services.items.5">
-                        Naprawa Elektryki
-                      </span>
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-ruler-combined"></i>
-                      <span data-i18n="contacts.locations.nowaHuta.services.items.6">
-                        Ustawienie Zbieżności Kół
-                      </span>
-                    </li>
-                  </ul>
+
+                <!-- Right Column: Map -->
+                <div class="col-md-7">
+                  <div class="map-container">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10239.544235892075!2d20.031755357116708!3d50.08842011235669!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716451d34d4cd93%3A0x85873872143a26f1!2sSMotors!5e0!3m2!1sen!2spl!4v1731862861868!5m2!1sen!2spl"
+                      width="100%" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
                 </div>
               </div>
             </div>
@@ -627,7 +664,8 @@
 
         <!-- Social Media Links -->
         <div class="col-md-6 text-md-end">
-          <a href="https://facebook.com/SMotorsPL" target="_blank" class="me-3 social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://facebook.com/SMotorsPL" target="_blank" class="me-3 social-icon"><i
+              class="fab fa-facebook-f"></i></a>
           <a href="https://tiktok.com" target="_blank" class="me-3 social-icon"><i class="fab fa-tiktok"></i></a>
           <a href="https://instagram.com/smotorspl" target="_blank" class="social-icon"><i
               class="fab fa-instagram"></i></a>
