@@ -148,7 +148,7 @@
       "nowaHuta": {
         "contact": {
           "title": "Kontakt z nami",
-          "address": "Kornela Makuszyńskiego 17, 31-752 Kraków",
+          "address": "<span>Kornela Makuszyńskiego 17,</span><span class=\"address-second-line\">31-752 Kraków</span>",
           "phone": "+48 570 460 270",
           "hours": "Pon - Sob: 8:00 - 23:00"
         },

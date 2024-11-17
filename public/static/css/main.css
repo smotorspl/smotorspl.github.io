@@ -244,16 +244,16 @@ p i {
 }
 
 .contact-card {
-  border-radius: 16px;
-  padding: 30px;
+  padding: 20px;
 }
 
 .contact-info {
   color: var(--bs-secondary-color);
   font-size: 1.1rem;
-  margin-bottom: 10px;
+  margin-bottom: 0;
   list-style: none;
   padding-left: 0;
+  min-height: 100px;
 }
 
 .contact-info li {
@@ -307,11 +307,11 @@ p i {
   width: fit-content;
 }
 
-.nav-tabs .nav-link > span {
+.nav-tabs .nav-link>span {
   position: relative;
 }
 
-.nav-tabs .nav-link > span::after {
+.nav-tabs .nav-link>span::after {
   content: "";
   position: absolute;
   width: 0;
@@ -322,8 +322,8 @@ p i {
   transition: width 0.3s ease;
 }
 
-.nav-tabs .nav-link:hover > span::after,
-.nav-tabs .nav-link.active > span::after {
+.nav-tabs .nav-link:hover>span::after,
+.nav-tabs .nav-link.active>span::after {
   width: 100%;
 }
 
@@ -431,9 +431,78 @@ p i {
     flex-direction: column;
     text-align: center;
   }
-  
+
   .consent-buttons {
     flex-direction: column;
     width: 100%;
   }
+}
+
+.services-list {
+  list-style: none;
+  padding: 0;
+}
+
+.services-list li {
+  margin-bottom: 15px;
+}
+
+.services-list li i {
+  width: 24px;
+  margin-right: 15px;
+  color: var(--bs-primary);
+}
+
+.map-container {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  min-height: 450px;
+}
+
+.map-container iframe {
+  border: 0;
+  border-radius: 16px;
+  height: 100%;
+  min-height: 400px;
+}
+
+@media (max-width: 768px) {
+  .map-container {
+    margin-top: 20px;
+    min-height: 400px;
+  }
+
+  .map-container iframe {
+    min-height: 400px;
+  }
+}
+
+.section-spacing {
+  margin-bottom: 3rem;
+}
+
+.address-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.address-second-line {
+  padding-left: 0;
+  /* Adjust this value to match the first line */
+}
+
+#services {
+  position: relative;
+  /* Establishes positioning context for pseudo-element */
+  z-index: 1;
+  /* Ensures content stays above the pseudo-element */
+  border-radius: 16px;
+  /* Rounded corners */
+  padding: 20px;
+  /* Internal spacing */
+  background-color: black;
+  /* Background color */
+  overflow: hidden;
+  /* Ensures pseudo-element doesn't spill out */
 }
